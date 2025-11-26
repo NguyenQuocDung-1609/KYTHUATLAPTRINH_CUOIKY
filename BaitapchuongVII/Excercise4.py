@@ -1,1 +1,0 @@
-print ("hello xin chao toi la hieu")

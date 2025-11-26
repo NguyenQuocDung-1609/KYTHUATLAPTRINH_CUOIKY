@@ -1,0 +1,13 @@
+try:
+    hours = float(input("Enter Hours: "))
+    rate = float(input("Enter Rate: "))
+except:
+    print("Error, please enter numberic input")
+if hours > 40 :
+    overtime = hours - 40
+    pay = (40*rate) + (1.5*overtime)
+else:
+    pay = 40*rate
+print("Enter Hours:",hours)
+print("Enter Rate:",rate)
+print("Pay: ",pay)
